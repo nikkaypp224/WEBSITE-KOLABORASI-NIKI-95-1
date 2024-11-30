@@ -1,0 +1,290 @@
+body{
+    background-color: rgb(4, 54, 62);
+    background-size: cover;
+}
+.bkerjasama{
+    background-color: pink;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: auto;
+    justify-content: center;
+    width: 1280px;
+    height: 130px;
+    position: relative;
+    background-color: rgb(128, 152, 150);
+}
+ul{
+    list-style: none;
+    background-color: rgb(83, 83, 237);
+    position: relative;
+    margin-top: -5px;
+    width: 1280px;
+    height: 60px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 20px;
+}
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color: rgb(3, 3, 99);
+}
+ul li ul.dropdown li{
+    display: block;
+}
+/* kode dropdown */
+ul li ul.dropdown{
+    background: rgb(157, 157, 158);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+.column{
+    float: left;
+    padding: 0px 10px;
+    background-color: pink;
+}
+/* Left and right column */
+.column.side{
+    overflow: visible;
+    width: 25%;
+    margin: 0px 0px;
+    margin-left: 0px;
+    background-color: rgb(4, 54, 62);
+}
+.column.side{
+    overflow: visible;
+    width: 25%;
+    margin: 0px 0px;
+    margin-left: 0px;
+    background-color: rgb(4, 54, 62);
+}
+.column.side3{
+    overflow: visible;
+    width: 25%;
+    margin: auto;
+    margin-left: auto;
+    background-color: rgb(4, 54, 62);
+}
+.column.side.gambar{
+background-color: rgb(4, 54, 62);
+}
+/* Middle column */
+.column.middle {
+    position: relative;
+    overflow: visible;
+    width: 50%;
+    margin: 0px 0px;
+    background-color: pink;
+}  
+.column2{
+    position: relative;
+    overflow: visible;
+    width: 50%;
+    margin: 0px 0px;
+    background-color: pink;
+}  
+.column1{
+    position: relative;
+    overflow: visible;
+    width: 50%;
+    margin: 0px 0px;
+    background-color: pink;
+}  
+
+/* Clear floats after the columns */
+.row::after {
+    overflow: visible;
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    width: 1280px;
+    height: 130px;
+    position: relative;
+    margin: auto;
+}
+ul.contoh{
+    background-color:rgb(181, 89, 104);
+    padding: 0px 8px;
+}
+.judul{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Halo Dek', serif;
+    letter-spacing: 4px;
+    background-color: rgb(129, 131, 254);
+    border-radius: 20px;
+    text-shadow: 2px 2px 10px white;
+}
+.judul.pengertian{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Namaku', serif;
+    letter-spacing: 4px;
+    background-color: rgb(129, 131, 254);
+    border-radius: 20px;
+    text-shadow: 2px 2px 10px white;
+}
+.judul.pengertian1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Namaku', serif;
+    letter-spacing: 4px;
+    background-color: rgb(129, 131, 254);
+    border-radius: 20px;
+    text-shadow: 2px 2px 10px white;
+    text-decoration: underline;
+}
+.judul.tujuh.belas{
+    margin-left: 20px;
+    font-family: 'Namaku', serif;
+    letter-spacing: 4px;
+    background-color: rgb(129, 131, 254);
+    border-radius: 20px;
+    text-shadow: 2px 2px 10px white;
+}
+.slmtdtng{
+    font-family: 'Magic Sound';
+    src: url(Magic\ Sound.ttf);
+    letter-spacing: 4px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(246, 221, 189);
+    text-shadow: 10px 10px 10px black;
+    background-color: rgb(41, 72, 183);
+    border-radius: 20px;
+}
+.konten{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Happy Food', serif;
+    letter-spacing: 0.5px;
+    color: black;
+
+}
+.tujuhbelastujuan{
+    margin-left: 20px;
+    font-family: 'Happy Food', serif;
+    letter-spacing: 0.5px;
+    color: black;
+}
+.tujuan{
+    font-size: medium;
+    background-color: rgb(103, 103, 218);
+    border-radius: 40px;
+    margin: 5px 5px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.isi{
+    font-size: small;
+    background-color: #DAC09F;
+}
+.fontkonten{
+    font-family: 'Happy Food', serif;
+    font-size: small;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.fontkonten2{
+    font-family: 'Happy Food', serif;
+    font-size: small;
+    letter-spacing: 1px;
+    text-align: justify;
+    background-color: #DAC09F;
+    padding: 10px 25px;
+}
+.fontkonten6{
+    font-family: 'Happy Food', serif;
+    font-size: small;
+    letter-spacing: 1px;
+    text-align: justify;
+    background-color: #554734;
+    padding: 10px 25px;
+    color: whitesmoke;
+    text-shadow: 20px 10px 15px black;
+}
+.fontkonten5{
+    font-family: 'Happy Food', serif;
+    font-size: small;
+    letter-spacing: 1px;
+    text-align: justify;
+    background-color: #DAC09F;
+    padding: 10px 25px;
+    margin-bottom: 195px;
+}
+.fontkonten7{
+    font-family: 'Namaku', serif;
+    font-size: small;
+    letter-spacing: 1px;
+    text-align: justify;
+    background-color: #DAC09F;
+    padding: 10px 25px;
+    margin-bottom: 195px;
+    margin: 2px 2px;
+    background-color: antiquewhite;
+}
+.fontkonten4{
+    font-family: 'Happy Food', serif;
+    font-size: small;
+    letter-spacing: 1px;
+    text-align: justify;
+    background-color: #DAC09F;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+}
+.fontkonten3{
+    font-family: 'Happy Food', serif;
+    font-size: small;
+    letter-spacing: 1px;
+    text-align: justify;
+    background-color: #DAC09F;
+    padding: 10px 25px;
+    margin-top: 10px;
+}
+.fontsisikanan{
+    font-family: 'Happy Food', serif;
+    font-size: small;
+    color: antiquewhite;
+    background-color: black;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.titik{
+    color: pink;
+}
+.gambar{
+    text-align: center;
+    margin-left: 350px;
+    size-adjust: 20%;
+}
+.gambar1{
+    text-align: center;
+    margin-left: 350px;
+}
+.gambar2{
+    text-align: center;
+}
+.footer1{
+    display: flex;
+    position: fixed;
+    margin: 250px 0px;
+}
